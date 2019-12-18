@@ -63,6 +63,19 @@ import { basicComponents } from "@/components/componentsConfig.js";
 import Draggable from "vuedraggable";
 import itemList from "@/components/itemList";
 export default {
+     metaInfo: {
+        title: '首页',
+        meta: [
+            {
+                name: 'keywords',
+                content: '关键字'
+            },
+            {
+                name: 'description',
+                content: '网页描述'
+            }
+        ]
+    },
     components: {
         itemList,
         Draggable
